@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:#f8e9e0;
+    background-image:url('bgg.jpg');
+    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+a{
+    text-decoration: none;
+      color:#904034;
+}
+#hero{
+ 
+    margin-top: 4%;
+    padding:15%;
+   
+    text-align: center;
+}
+.options{
+        z-index:10;
+display: flex;
+align-items: center;
+justify-content: space-around;
+top:10px;
+padding-top: 0px;
+padding: 10px;
+justify-self: center;
+gap:20px;
+cursor: pointer;
+position:fixed;
+  flex-wrap: wrap;
+
+  
+}
+.optio{
+display: flex;
+
+align-items: flex-start;
+justify-content: space-around;
+
+padding-top: 20px;
+gap:20px;
+cursor: pointer;
+
+}
+h1{
+    margin-top:6%;
+    color: #a8a7a5;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #0edfc3 0px 0px 20px, #f5d02a 0px 0px 30px, #FF2D95 0px 0px 40px, #2dffed 0px 0px 50px, #2de6ff 0px 0px 75px;
+}
+h4{
+margin-top: 5px;    
+}
+.op{
+ 
+}
+.op:hover{
+ transform: scale(1.1);
+ transition: 0.3s;
+ border-radius: 20px;
+ padding: 5px;
+}
+.pro{
+    flex:1;
+    border-radius: 17px;
+    backdrop-filter: blur(3px);
+    height: fit-content;
+   
+    padding: 20%;
+    border:3px solid;
+    min-width: 10px; 
+  max-width: 200px;
+
+  
+}
+.proj{
+    margin-top:20px;
+        display: flex;
+    flex-direction: row;
+padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+gap: 20px;
+    
+    padding: 40px;
+  flex-wrap: wrap;
+
+}
+
+.pro:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+transition:0.3s;
+}
