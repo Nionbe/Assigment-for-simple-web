@@ -143,11 +143,18 @@ transition:0.3s;
     font-size:x-large;
 }
 footer{
-    font-size: smaller;
+    font-size: xx-small;
     background-color: #2c1e18c4;
-    color: #C0BAB3;
-    padding:20px;
+    color: #ffffff;
+    padding:10px;
     
+}
+.state{
+opacity: 30%;
+padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
 .links{
     text-align: end;
