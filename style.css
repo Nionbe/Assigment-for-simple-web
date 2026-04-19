@@ -68,6 +68,12 @@ margin-top: 5px;
  padding: 5px;
  flex: 1;
 }
+.op a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
 .op:hover{
  text-decoration:overline;
 
@@ -180,6 +186,15 @@ flex-wrap: wrap;
 }
 .links{
     text-align: end;
+}
+.links a {
+    color: #ffd207de;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.links a:hover {
+    text-decoration: underline;
 }
 #resu {
 display:flex;
