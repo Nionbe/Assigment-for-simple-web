@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
         <div class="options">
              <div class="op" id="home"><a href="index.html">HOME</a></div>
             <div class="op"id="por"><a href="p.html"> PORTOFOLIO</a>
@@ -14,19 +15,33 @@
             <div class="op"id="res"><a href="R.html">RESUME/CV</a></div>
             <div class="op"id="ski"><a href="sk.html">SKILLS</a></div>
             <div class="op"id="con"><a href="c.html">CONTACT</a></div>
-            <div class="op"id="social"><a href="s.html">SOCIAL MEDIA</a></div>
+            <div class="op"id="social"><a href="#s">SOCIAL MEDIA</a></div>
         </div>
         <section id="contact-de">
-         <h2>Want to say hi?</h2>
+            <div id="hi">
+         <h2>Want to <h2>say</h2> <h2>hi?</h2>
+        </div>
             <form action="#" method="post">
                   <lable for="fullname">Full Name:</lable> 
                   <input class="inp" type="text" name="fullname" placeholder="Type your full name"/><br>
                     <label for="email">Email: </label>
                   <input class="inp" type="email" name="email" placeholder="example@gmail.com"/><br>
-                  <label for="mes">MESSAGE:</label>
-                  <input id="disc" class="inp" type="text" name="mes"placeholder="Your thoughts here"/><br>
+                  <label for="disc">Send a Message</label>
+                  <textarea id="disc" class="inp" type="text" name="mes"placeholder="Your thoughts here"></textarea><br>
                   <input  class="inp" type="button" value="submit" id="btn"/>
             </form>
         </section>
+    </main>
+        <footer id="s">
+        <div class="state">
+            <h3>THE WEBSITE WAS CREATED BY BENION,<br>Id:UUR00164/17 !! </h3>
+        </div>
+        <div class="links">
+            <a href="http://github.com">GITHUB</a>
+            <a href="http://linkden.com">LINKDEN</a>
+            <a href="http://x.com">X/TWEETER/</a>
+            <a href="http://telegram.com">TELEGRAM</a>
+        </div>
+    </footer>
 </body>
 </html>

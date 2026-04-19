@@ -6,7 +6,7 @@
 body{
     font-family: "Comic Sans MS", cursive, sans-serif;
     color:#f8e9e0;
-    background-image:url('bgg.jpg');
+    background-color: #52423D;
     background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -19,7 +19,7 @@ main{
 }
 a{
     text-decoration: none;
-      color:#904034;
+      color:#04065eb4;
 }
 #hero{
  
@@ -205,19 +205,37 @@ border-left: 5px solid;
 #exp{
      min-width: 300px;
 border-left: 3px solid #391214; 
- 
 }
-@keyframes line {
-  0% {
-    border-color: #391214; /* Dark Sienna (Starting point) */
-  }
-  33% {
-    border-color: #887D77; /* Moon Rock (Transition) */
-  }
-  66% {
-    border-color: #52423D; /* Spiced Hot Chocolate (Transition) */
-  }
-  100% {
-    border-color: #391214; /* Returns to Dark Sienna for a smooth loop */
-  }
+.skills-content {
+    background-color: #db480475;
+    margin: 10%  ;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+.skills-content h1 {
+    font-size: 24px;
+    color: #042a50b2;
+    text-align: center;
+}
+
+.skills-content h3 {
+    font-size: 18px;
+    color: #01353b;
+    border-left: 4px solid #3498db; 
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+.skills-content ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.skills-content li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffd102a9;
 }
