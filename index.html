@@ -10,7 +10,7 @@
     <main>
     <div id="hero">
         <h1>I'M BENION....</h1>
-        <h4 style="text-decoration: none; color:#887D77">A Computer Science student at Unity University.</h4>
+        <h4 style="text-decoration: none; color:#ffd6ba">A Computer Science student at Unity University.</h4>
         <div class="optio">
             <div class="op" id="home"><a href="index.html">HOME</a></div>
             <div class="op"id="por"><a href="p.html"> PORTOFOLIO</a></div>
@@ -31,6 +31,13 @@
             <a href="http://x.com">X/TWEETER/</a>
             <a href="http://telegram.com">TELEGRAM</a>
         </div>
-
+</footer>
+<script>
+    const socialBtn = document.getElementById("social");
+    const linksContainer = document.querySelector(".links");
+    socialBtn.addEventListener("click", function(){
+linksContainer.classList.toggle("border_thing");
+    });
+</script>
 </body>
 </html>

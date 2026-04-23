@@ -48,5 +48,13 @@
             <a href="http://x.com">X (TWITTER)</a>
             <a href="http://telegram.org">TELEGRAM</a>
         </div>
-    </footer> </body>
+    </footer>
+    <script>
+    const socialBtn = document.getElementById("social");
+    const linksContainer = document.querySelector(".links");
+    socialBtn.addEventListener("click", function(){
+linksContainer.classList.toggle("border_thing");
+    });
+</script>
+ </body>
 </html>

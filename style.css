@@ -207,7 +207,7 @@ flex-direction: column;
 flex-wrap: wrap;
 }
 .links{ 
-    margin-left:53%;
+    margin-left:75%;
     width: fit-content;
     
     text-align: end;
@@ -248,7 +248,7 @@ border-left: 5px solid;
 border-left: 3px solid #391214; 
 }
 .skills-content {
-    background-color: #db480475;
+    background-color: #724732be;
     margin: 10%  ;
     padding: 25px;
     border: 1px solid #ddd;
@@ -257,8 +257,9 @@ border-left: 3px solid #391214;
 }
 
 .skills-content h1 {
+    text-shadow: none;
     font-size: 24px;
-    color: #042a50b2;
+    color: #56a2ee;
     text-align: center;
 }
 
@@ -278,7 +279,7 @@ border-left: 3px solid #391214;
 .skills-content li {
     font-size: 16px;
     margin-bottom: 10px;
-    color: #ffd102a9;
+    color: #04deff;
 }
 .border_thing {
     border: 5px solid;
