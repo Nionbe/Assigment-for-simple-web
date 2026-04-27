@@ -21,6 +21,14 @@ body {
   min-height:100vh;
   flex-direction:column;
 }
+#pf{
+    border:7px solid;
+    margin-top: 4%;
+    width:fit-content;
+    height:200px;
+    align-self: center;
+    border-radius: 300px;
+}
 main{
     flex: 1;
 }
@@ -56,6 +64,7 @@ flex-wrap: wrap;
     padding: 15px 0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
+
 .optio{
 display: flex;
 flex-wrap: wrap;
@@ -69,7 +78,7 @@ cursor: pointer;
 
 }
 h1{
-    margin-top:6%;
+justify-self:center;
     color: #00000091;
 text-shadow: #00ffdda9 6px 3px 5px, #141414a9 6px 13px 5px;
 }
@@ -207,9 +216,8 @@ flex-direction: column;
 flex-wrap: wrap;
 }
 .links{ 
-    margin-left:75%;
     width: fit-content;
-    
+    justify-self: end;
     text-align: end;
 }
 .links a {
